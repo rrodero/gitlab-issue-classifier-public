@@ -1,0 +1,92 @@
+[
+  {
+    "id": 76834,
+    "name": "time:aiteam",
+    "description": "Suporte a utilização de funcionalidades da plataforma de IA, Analitics e esteira de ETLs"
+  },
+  {
+    "id": 6610,
+    "name": "time:aseg",
+    "description": "Evoluir os serviços de armazenamento, processamento distribuído."
+  },
+  {
+    "id": 19510,
+    "name": "time:atendimento",
+    "description": "Atrair, fidelizar e recuperar clientes prestando atendimento técnico tempestivo, resolutivo e de qualidade"
+  },
+  {
+    "id": 1329,
+    "name": "time:datalaAnalytcsLaCompany",
+    "description": "Ser uma plataforma avançada para a modelagem de dados, para maior agilidade e eficiência, para impulsionar o sucesso do negócio."
+  },
+  {
+    "id": 79667,
+    "name": "time:devways",
+    "description": "Time responsavel pela ares de modelagem de DSML nos ambientes do Databricks e H2O"
+  },
+  {
+    "id": 39077,
+    "name": "time:digitalanalytics",
+    "description": "Catalisar a geração de valor por meio dos dados da jornada do usuário em aplicações"
+  },
+  {
+    "id": 64667,
+    "name": "time:evolution",
+    "description": "Time com responsabilidade de organizar as evoluções de tecnologias de aplicativos que rodam na plataforma ia_e_analytics, como Python e Spark"
+  },
+  {
+    "id": 50856,
+    "name": "time:gaia",
+    "description": "Trabalha com a parte de governacia de cilco de vida de modelos de IA e ETLs, registros da parte de complice"
+  },
+  {
+    "id": 50889,
+    "name": "time:gegod_arquitetura_dados",
+    "description": "Cuida de versionamento de tabelas do ecosistema de dominios de informações e dominios de negociais de dados"
+  },
+  {
+    "id": 60695,
+    "name": "time:gegod_governanca_dados",
+    "description": "Cuida de versionamento de Modelos de IA do ecosistema de dominios de informações e dominios de negociais de dados"
+  },
+  {
+    "id": 102276,
+    "name": "time:goiaa",
+    "description": "Equipe voltada a atender aplicativos de ia para area de negocio"
+  },
+  {
+    "id": 107330,
+    "name": "time:goiaa_genai",
+    "description": "Tag inicial do template \"Solicitação de Publicação - IA Generativa\""
+  },
+  {
+    "id": 50891,
+    "name": "time:goia_visualizacao_dados",
+    "description": "Cuida da esteira de dashboards"
+  },
+  {
+    "id": 99400,
+    "name": "time:iaa",
+    "description": "Plataforma voltada a atender o negocio com soluções de IA embarcadas"
+  },
+  {
+    "id": 75614,
+    "name": "time:mopi",
+    "description": "Time de Motores de Processamento e Inferência"
+  },
+  {
+    "id": 64666,
+    "name": "time:qes",
+    "description": "Time de processamento e streaming no ambiente de BIG DATA"
+  },
+  {
+    "id": 61556,
+    "name": "time:send",
+    "description": "Mantem as esteira automatizada de replicação de dados do transacional para datalake"
+  },
+  {
+    "id": 27755,
+    "name": "time:wolf",
+    "description": "Evoluir a esteira de CI/CD de soluções analíticas  "
+  }
+]

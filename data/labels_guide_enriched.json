@@ -1,0 +1,110 @@
+[
+  {
+    "id": 76834,
+    "name": "time:aiteam",
+    "description": "Suporte a utilização de funcionalidades da plataforma de IA, Analitics e esteira de ETLs",
+    "keywords": ["aiteam", "suporte ia", "suporte etl", "plataforma de ia", "analytics"]
+  },
+  {
+    "id": 6610,
+    "name": "time:aseg",
+    "description": "Evoluir os serviços de armazenamento, processamento distribuído.",
+    "keywords": ["aseg", "armazenamento", "hdfs", "hive", "impala", "permissão", "acesso", "keytab", "kerberos", "ldap", "segurança", "autenticação", "banco de dados", "db2"]
+  },
+  {
+    "id": 19510,
+    "name": "time:atendimento",
+    "description": "Atrair, fidelizar e recuperar clientes prestando atendimento técnico tempestivo, resolutivo e de qualidade",
+    "keywords": ["atendimento", "suporte técnico", "ajuda", "dúvida", "problema de acesso", "conexão", "licença", "consultoria", "instalação"]
+  },
+  {
+    "id": 1329,
+    "name": "time:datalaAnalytcsLaCompany",
+    "description": "Ser uma plataforma avançada para a modelagem de dados, para maior agilidade e eficiência, para impulsionar o sucesso do negócio.",
+    "keywords": ["datalaAnalytcsLaCompany", "ambiente_de_modelagem", "jupyter", "notebook", "modelagem de dados", "boto3", "h2o"]
+  },
+  {
+    "id": 79667,
+    "name": "time:devways",
+    "description": "Time responsavel pela ares de modelagem de DSML nos ambientes do Databricks e H2O",
+    "keywords": ["devways", "databricks", "h2o", "dsml", "modelagem", "azure", "replicação azure"]
+  },
+  {
+    "id": 39077,
+    "name": "time:digitalanalytics",
+    "description": "Catalisar a geração de valor por meio dos dados da jornada do usuário em aplicações",
+    "keywords": ["digitalanalytics", "webanalytics", "matomo", "jornada do usuário", "funil", "delfos"]
+  },
+  {
+    "id": 64667,
+    "name": "time:evolution",
+    "description": "Time com responsabilidade de organizar as evoluções de tecnologias de aplicativos que rodam na plataforma ia_e_analytics, como Python e Spark",
+    "keywords": ["evolution", "migração", "atualização python", "atualização spark", "ia_e_analytics", "mojo"]
+  },
+  {
+    "id": 50856,
+    "name": "time:gaia",
+    "description": "Trabalha com a parte de governacia de cilco de vida de modelos de IA e ETLs, registros da parte de complice",
+    "keywords": ["gaia", "ciclo de vida", "compliance", "recalibragem", "aprovação de modelo", "ativo de dados"]
+  },
+  {
+    "id": 50889,
+    "name": "time:gegod_arquitetura_dados",
+    "description": "Cuida de versionamento de tabelas do ecosistema de dominios de informações e dominios de negociais de dados",
+    "keywords": ["gegod_arquitetura_dados", "versionamento de tabela", "view", "modelo de dados", "domínio de informação"]
+  },
+  {
+    "id": 60695,
+    "name": "time:gegod_governanca_dados",
+    "description": "Cuida de versionamento de Modelos de IA do ecosistema de dominios de informações e dominios de negociais de dados",
+    "keywords": ["gegod_governanca_dados", "governança de dados", "pii", "dados pessoais", "lgpd", "papeis de governança"]
+  },
+  {
+    "id": 102276,
+    "name": "time:goiaa",
+    "description": "Equipe voltada a atender aplicativos de ia para area de negocio",
+    "keywords": ["goiaa", "aplicativo de ia", "solução de ia"]
+  },
+  {
+    "id": 107330,
+    "name": "time:goiaa_genai",
+    "description": "Tag inicial do template \"Solicitação de Publicação - IA Generativa\"",
+    "keywords": ["goiaa_genai", "ia generativa", "genai", "publicação ia"]
+  },
+  {
+    "id": 50891,
+    "name": "time:goia_visualizacao_dados",
+    "description": "Cuida da esteira de dashboards",
+    "keywords": ["goia_visualizacao_dados", "power bi", "dashboard", "workspace", "visualização", "datamart", "painel"]
+  },
+  {
+    "id": 99400,
+    "name": "time:iaa",
+    "description": "Plataforma voltada a atender o negocio com soluções de IA embarcadas",
+    "keywords": ["iaa", "ia embarcada", "azure ai", "foundry", "soluções de ia"]
+  },
+  {
+    "id": 75614,
+    "name": "time:mopi",
+    "description": "Time de Motores de Processamento e Inferência",
+    "keywords": ["mopi", "motor de processamento", "inferência", "aumento de memória", "pod", "datastage"]
+  },
+  {
+    "id": 64666,
+    "name": "time:qes",
+    "description": "Time de processamento e streaming no ambiente de BIG DATA",
+    "keywords": ["qes", "streaming", "big data", "kafka", "nifi", "solr", "cluster", "performance de cluster", "sessão spark"]
+  },
+  {
+    "id": 61556,
+    "name": "time:send",
+    "description": "Mantem as esteira automatizada de replicação de dados do transacional para datalake",
+    "keywords": ["send", "replicação", "datalake", "migração de dados"]
+  },
+  {
+    "id": 27755,
+    "name": "time:wolf",
+    "description": "Evoluir a esteira de CI/CD de soluções analíticas",
+    "keywords": ["wolf", "ci/cd", "agendamento", "build", "deploy", "versionamento", "falha de execução", "motorhead", "job agendado"]
+  }
+]

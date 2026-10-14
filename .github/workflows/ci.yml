@@ -1,0 +1,48 @@
+# Nome do nosso workflow, que aparecerá na aba "Actions" do GitHub
+name: CI Pipeline
+
+# Define os gatilhos (triggers) que disparam a pipeline
+on:
+  # Roda a cada push na branch 'develop'
+  push:
+    branches: [ develop ]
+  # Roda em cada pull request aberto para a branch 'main'
+  pull_request:
+    branches: [ main ]
+
+# Define os trabalhos (jobs) a serem executados
+jobs:
+  build-and-test:
+    # O tipo de máquina virtual que o job rodará
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clona o repositório para a máquina virtual
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Configura o ambiente Python na versão 3.11
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      # 3. Instala o 'uv', nosso gerenciador de pacotes
+      - name: Install uv
+        run: pip install uv
+
+      # 4. Instala as dependências do projeto de forma rápida e reprodutível
+      - name: Install dependencies
+        run: |
+          uv pip sync requirements.lock --system
+          uv pip install -e ".[dev]" --system
+
+      # 5. Lint com o Ruff
+      - name: Lint with Ruff
+        run: |
+          ruff format --check .
+          ruff check .
+
+      # 6. Executa os testes de unidade com pytest com cobertura
+      - name: Run tests with coverage
+        run: pytest -m "not online" --cov=src --cov-fail-under=90

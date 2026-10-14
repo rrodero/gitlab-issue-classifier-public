@@ -1,0 +1,92 @@
+[
+  {
+    "id": 76834,
+    "name": "time:aiteam",
+    "description": "Use para issues de SUPORTE geral a ferramentas da plataforma de IA e Analytics. Se um usuário precisa de ajuda para usar uma funcionalidade existente, esta é a etiqueta."
+  },
+  {
+    "id": 6610,
+    "name": "time:aseg",
+    "description": "Use para issues de GESTÃO TÉCNICA DE ACESSO E SEGURANÇA. Palavras-chave: permissão, acesso negado, permission denied, keytab, kerberos, krb5, LDAP, expurgo de dados, limpeza de arquivos HDFS. Para regras de negócio e papéis de governança, veja 'time:gegod_governanca_dados'."
+  },
+  {
+    "id": 19510,
+    "name": "time:atendimento",
+    "description": "Use como ÚLTIMO RECURSO, para triagem humana. Se a issue é um pedido de suporte genérico, um problema de acesso de usuário, ou uma dúvida sobre uma ferramenta que não tem um time especialista claro, use esta etiqueta."
+  },
+  {
+    "id": 1329,
+    "name": "time:datalaAnalytcsLaCompany",
+    "description": "Use para issues relacionadas ao ambiente ambiente_de_modelagem. Palavras-chave: Jupyter, Notebook, modelagem de dados, instalação de bibliotecas como 'boto3'."
+  },
+  {
+    "id": 79667,
+    "name": "time:devways",
+    "description": "Use para issues de modelagem de DSML (Data Science & Machine Learning) especificamente nos ambientes DATABRICKS e H2O. Palavras-chave: Databricks, H2O, Azure."
+  },
+  {
+    "id": 39077,
+    "name": "time:digitalanalytics",
+    "description": "Use para issues sobre a jornada do usuário e ferramentas de Web Analytics. Palavras-chave: Matomo, Delfos, Funil de Jornadas, WebAnalytics."
+  },
+  {
+    "id": 64667,
+    "name": "time:evolution",
+    "description": "Use para issues sobre a EVOLUÇÃO e ATUALIZAÇÃO de tecnologias base da plataforma, como versões de Python e Spark, ou migrações de ambiente (ex: HDP para CDP)."
+  },
+  {
+    "id": 50856,
+    "name": "time:gaia",
+    "description": "Use para issues sobre o sistema GAIA, que governa o CICLO DE VIDA de modelos e ETLs. Palavras-chave: GAIA, aprovação, recalibragem, compliance, implantação pendente."
+  },
+  {
+    "id": 50889,
+    "name": "time:gegod_arquitetura_dados",
+    "description": "Use para issues sobre a ARQUITETURA DE DADOS. Foco em MODELAGEM e ESTRUTURA. Palavras-chave: criação/alteração de VIEW, modelagem de dados, domínios de informação. Para versionamento de tabelas já existentes, veja 'time:gegod_governanca_dados'."
+  },
+  {
+    "id": 60695,
+    "name": "time:gegod_governanca_dados",
+    "description": "Use para issues sobre GOVERNANÇA DE DADOS. Foco em REGRAS DE NEGÓCIO e PERMISSÕES. Palavras-chave: versionamento de MODELOS e TABELAS, PII, LGPD, papéis de governança. Para acesso técnico (keytabs, LDAP), veja 'time:aseg'."
+  },
+  {
+    "id": 102276,
+    "name": "time:goiaa",
+    "description": "Use para o desenvolvimento de APLICATIVOS DE IA para áreas de negócio. Diferente de 'time:aiteam', que é suporte, esta é para a criação de novas soluções."
+  },
+  {
+    "id": 107330,
+    "name": "time:goiaa_genai",
+    "description": "Use para issues específicas sobre a PUBLICAÇÃO ou avaliação de novas soluções de IA GENERATIVA (GenAI)."
+  },
+  {
+    "id": 50891,
+    "name": "time:goia_visualizacao_dados",
+    "description": "Use para issues sobre a ferramenta POWER BI. Foco no SUPORTE AO USUÁRIO e CRIAÇÃO. Exemplos: 'Criação de Workspace', 'Criação de Pasta', 'Suporte/Consultoria'. Para questões de governança (regras e papéis), veja 'time:gegod_governanca_dados'."
+  },
+  {
+    "id": 99400,
+    "name": "time:iaa",
+    "description": "Use para issues sobre a plataforma de SOLUÇÕES DE IA EMBARCADAS, como o Azure AI Foundry."
+  },
+  {
+    "id": 75614,
+    "name": "time:mopi",
+    "description": "Use para issues sobre MOTORES DE PROCESSAMENTO e inferência. Palavras-chave: DataStage, aumento de memória de POD, performance de motores."
+  },
+  {
+    "id": 64666,
+    "name": "time:qes",
+    "description": "Use para issues sobre a INFRAESTRUTURA de processamento e streaming. Se o problema é de INSTABILIDADE (ex: falha de sessão Spark, cluster lento, KAFKA, NIFI, SOLR), use esta etiqueta. Se um job FALHOU a execução agendada mas a infra está estável, veja 'time:wolf'."
+  },
+  {
+    "id": 61556,
+    "name": "time:send",
+    "description": "Use para issues sobre a REPLICAÇÃO de dados, a esteira que move dados do transacional para o datalake. Palavras-chave: replicação, migração de dados."
+  },
+  {
+    "id": 27755,
+    "name": "time:wolf",
+    "description": "Use para issues sobre a ORQUESTRAÇÃO e AGENDAMENTO de jobs via WOLF. Se um job AGENDADO falhou, não executou, ou precisa de uma 'rodada eventual', a responsabilidade inicial é deste time. Palavras-chave: CI/CD, agendador WOLF, build, deploy, versionamento, falha na execução de job agendado, job travado. Se a análise inicial mostrar que a causa é instabilidade na infra da ferramenta (ex: cluster Spark), a issue será reatribuída para 'time:qes'."
+  }
+]

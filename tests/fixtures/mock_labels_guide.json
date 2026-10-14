@@ -1,0 +1,10 @@
+[
+  {
+    "name": "test:label-a",
+    "description": "Primeira label de teste."
+  },
+  {
+    "name": "test:label-b",
+    "description": "Segunda label de teste."
+  }
+]

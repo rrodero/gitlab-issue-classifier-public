@@ -1,0 +1,31 @@
+[project]
+name = "gitlab-issue-classifier"
+version = "0.1.0"
+description = "Um agente de IA para classificar issues do GitLab."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langfuse",
+    "openai",
+    "pydantic",
+    "python-dotenv",
+    "fastapi",
+    "uvicorn"
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff", "pytest-mock", "httpx", "pytest-cov"]
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
+
+[tool.pytest.ini_options]
+markers = [
+    "online: marca testes que requerem uma conexão de rede real e não devem ser executados na CI padrão.",
+]
