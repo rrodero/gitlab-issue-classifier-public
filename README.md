@@ -2,7 +2,7 @@
 
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/release/python-3130/)
 [![CI Pipeline](https://github.com/rrodero/gitlab-issue-classifier-public/actions/workflows/ci.yml/badge.svg)](https://github.com/rrodero/gitlab-issue-classifier-public/actions/workflows/ci.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1419857864.svg)](https://doi.org/10.5281/zenodo.23379831)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Este repositório contém o artefacto de software, os conjuntos de dados anonimizados e os scripts de avaliação experimental associados ao artigo aceite no **XXV Simpósio Brasileiro de Qualidade de Software (SBQS 2026)**.
@@ -27,14 +27,14 @@ O artefacto consiste num agente inteligente baseado em Large Language Model (LLM
 - **Título:** Observability-Guided Verification and Validation of LLM Agents: An Exploratory Case Study
 - **Autores:** Rafael Henrique Rodero, Diges Feltrin Guizelini e Elaine Venson
 - **Evento:** XXV Simpósio Brasileiro de Qualidade de Software (SBQS 2026)
-- **Link para o Artigo (Versão do Autor):** [Inserir URL para o PDF da versão do autor]
-- **Depósito Persistente (Zenodo DOI):** `https://doi.org/10.5281/zenodo.XXXXXXX`
+- **Link para o Artigo (Versão do Autor):** Disponível no depósito do Zenodo em `https://doi.org/10.5281/zenodo.23379832`
+- **Depósito Persistente (Zenodo DOI):** `https://doi.org/10.5281/zenodo.23379832`
 
 ---
 
 ## 📂 Organização do Repositório
 
-A estrutura de diretórios e ficheiros do projeto está organizada da seguinte forma:
+A estrutura de diretórios e arquivos do projeto está organizada da seguinte forma:
 
 ```text
 ├── .env.example                   # Modelo das variáveis de ambiente necessárias
@@ -54,7 +54,7 @@ A estrutura de diretórios e ficheiros do projeto está organizada da seguinte f
 │   ├── test_set.jsonl             # Partição de teste utilizada na avaliação experimental
 │   └── validation_set.jsonl       # Partição de validação utilizada na calibração
 ├── scripts/                       # Scripts para reprodução do fluxo experimental
-│   ├── clean_jsonl.py             # Higienização e normalização dos ficheiros JSONL
+│   ├── clean_jsonl.py             # Higienização e normalização dos arquivos JSONL
 │   ├── split_dataset.py           # Divisão dos dados em conjuntos de validação e teste
 │   └── evaluate.py                # Execução da avaliação experimental e cálculo de métricas
 ├── src/                           # Código-fonte do agente classificador e da API
@@ -94,7 +94,7 @@ A estrutura de diretórios e ficheiros do projeto está organizada da seguinte f
 - **Ambiente de Software:**
   - Python `3.13` (definido em `.python-version`)
   - Gestor de pacotes e ambientes [uv](https://github.com/astral-sh/uv)
-- **Credenciais Externas:** Chave de API válida do fornecedor de LLM (configurada via ficheiro `.env`). As chaves do Langfuse são opcionais para rastreamento de telemetria.
+- **Credenciais Externas:** Chave de API válida do fornecedor de LLM (configurada via arquivo `.env`). As chaves do Langfuse são opcionais para rastreamento de telemetria.
 
 ---
 
@@ -127,7 +127,7 @@ A estrutura de diretórios e ficheiros do projeto está organizada da seguinte f
    ```bash
    cp .env.example .env
    ```
-   Abra o ficheiro `.env` num editor de texto e preencha as variáveis com as suas credenciais de API (fornecedor de LLM e, opcionalmente, Langfuse).
+   Abra o arquivo `.env` num editor de texto e preencha as variáveis com as suas credenciais de API (fornecedor de LLM e, opcionalmente, Langfuse).
 
 ---
 
@@ -140,7 +140,7 @@ pytest
 ```
 
 ### 2. Reproduzir o Pré-processamento e Divisão do Conjunto de Dados
-Os ficheiros processados (`ground_truth_cleaned.jsonl`, `validation_set.jsonl` e `test_set.jsonl`) já estão incluídos na pasta `data/`. Caso deseje executar novamente o pipeline de preparação de dados:
+Os arquivos processados (`ground_truth_cleaned.jsonl`, `validation_set.jsonl` e `test_set.jsonl`) já estão incluídos na pasta `data/`. Caso deseje executar novamente o pipeline de preparação de dados:
 ```bash
 # 1. Higienização do dataset bruto
 python scripts/clean_jsonl.py
